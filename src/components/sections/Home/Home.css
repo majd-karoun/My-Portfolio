@@ -1,0 +1,30 @@
+#home{
+    background-image: url('../../images/background.jpg');
+    background-size:cover;
+    background-position: center;
+    
+}
+
+#home p {
+    color: white;
+    font-size: 3rem;
+    padding-top: 30vh;
+    padding-left: 5%;
+    text-align: left;
+}
+
+.button__contact-me-btn{
+    margin-top: 1em;
+    margin-left:5%;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.button__contact-me-btn a{
+    text-decoration: none;
+    color: white;
+    
+    
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #161E29;
+  color: #2B7E91;
+ 
+
+}
+
+:root{
+  --light: #D9D9D9;
+  --mid: #2B7E91;
+  --dark: #1A2C39;
+}
+
+section{
+  min-height: 100vh;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.button{
+  border-radius: 2px;
+  background-color: var(--mid);
+  padding-inline: 1.2em;
+  padding-block: 0.2em;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  font-family: inherit;
+}
+.button:hover{
+  background-color: #205e6c;
+  
+}
+
+.button-secondary{
+  border-radius: 4px;
+  background-color: var(--dark);
+
+  padding-inline: 1.2em;
+  padding-block: 0.3em;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--mid);
+  border: solid var(--mid) 2px;
+  font-family: inherit;
+}
+
+.section-title{
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.5em;
+  color: white;
+
+  
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  section{
+    padding-inline: auto;
+    text-align: center;
+  }
+  
+}
